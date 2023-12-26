@@ -5,7 +5,7 @@ function getFormvalue() {
      let last=form1.elements["lname"].value;
 	alert(first+" "+last);
 }
-document.getElementById('myForm').addEventListener("submit",function(ev){
+document.getElementById("form1").addEventListener('submit',function(ev){
 ev.preventDefault();
 	getFormvalue();
 })
